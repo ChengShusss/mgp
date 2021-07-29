@@ -1,0 +1,2 @@
+# mgp
+mathematic game plot
