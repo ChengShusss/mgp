@@ -1,13 +1,11 @@
-#!/usr/bin/python3
+#!/usr/local/bin/python3
 # -*- coding:utf-8 -*-
 
 import os
 import sys
 
-from matplotlib.pyplot import plot
 sys.path.append(os.path.join(os.path.dirname(__file__), '../libs'))
 from stacked_bar import plot_stacked_bar
-# from ..libs.stacked_bar import plot_stacked_bar
 
 def get_next(p: int, distribution: list):
     """Return next round distribution.
